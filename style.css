@@ -1,0 +1,139 @@
+body {
+  font-family: "bogart", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/*Header*/
+header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+/*H1 bruker Blenny Typekit */
+h1 {
+  background-color: #fffc99;
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 7%;
+  color: #7b3e19;
+}
+
+/* Nav */
+nav a {
+  background-color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-family: "bogart", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Innhold */
+main {
+  padding: 20px;
+}
+
+/* Underrubrikker */
+h2 {
+  font-family: "bogart", sans-serif;
+  font-weight: 900; /* Bogart Black */
+  font-style: normal;
+  text-align: center;
+}
+
+footer {
+  background-color: #fffc99;
+  position: relative;
+  padding: 40px;
+  color: #7b3e19;
+  font-family: "bogart", sans-serif;
+}
+
+/* Samme stil som h1 */
+footer h1 {
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-left: 40px;
+  margin: 0;
+  color: #7b3e19;
+}
+
+/* Adresse under h1 */
+footer .adresse {
+  padding-left: 40px;
+  margin-top: 5px;
+  line-height: 1.4;
+  color: black;
+}
+
+/* Midtstilt kontaktseksjon */
+.footer-mid {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-mid h2 {
+  font-family: "bogart", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: black;
+}
+
+/* Større avstand mellom ordene */
+.footer-mid h2 .word1 {
+  margin-right: 10%; /* mellom Stand-Up og Kafé */
+}
+
+.footer-mid h2 .word2 {
+  margin-right: 10%; /* mellom Kafé og Kontakt oss */
+}
+
+.footer-mid h2 .word3 {
+  margin-right: 0; /* siste ord trenger ikke ekstra */
+}
+
+/* Sosiale medier logoer */
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.footer-mid .copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Åpningstider til høyre */
+.apningstider {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  text-align: right;
+  font-size: 1rem;
+  color: black;
+}
+
+.apningstider h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "bogart", sans-serif;
+  color: #7b3e19;
+}
