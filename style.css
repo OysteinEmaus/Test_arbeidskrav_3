@@ -11,25 +11,12 @@ body {
 header {
   background-color: #ffffff;
   text-align: center;
-  padding: 20px;
 }
 
 /*H1 bruker Blenny Typekit */
-h1 {
-  background-color: #fffc99;
-  font-family: "Blenny", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 3rem;
-  text-align: left;
-  margin-top: 0;
-  padding-left: 7%;
-  color: #7b3e19;
-}
 
 /* Nav */
 nav a {
-  background-color: white;
   margin: 0 15px;
   text-decoration: none;
   color: #333;
@@ -63,7 +50,6 @@ footer {
   font-family: "bogart", sans-serif;
 }
 
-/* Samme stil som h1 */
 footer h1 {
   font-family: "Blenny", sans-serif;
   font-weight: 700;
@@ -73,7 +59,6 @@ footer h1 {
   color: #7b3e19;
 }
 
-/* Adresse under h1 */
 footer .adresse {
   padding-left: 40px;
   margin-top: 5px;
@@ -81,7 +66,6 @@ footer .adresse {
   color: black;
 }
 
-/* Midtstilt kontaktseksjon */
 .footer-mid {
   text-align: center;
   margin-top: 40px;
@@ -95,24 +79,25 @@ footer .adresse {
   color: black;
 }
 
-/* Større avstand mellom ordene */
 .footer-mid h2 .word1 {
-  margin-right: 10%; /* mellom Stand-Up og Kafé */
+  margin-right: 10%;
+  color: black;
 }
 
 .footer-mid h2 .word2 {
-  margin-right: 10%; /* mellom Kafé og Kontakt oss */
+  margin-right: 10%;
+  color: black;
 }
 
 .footer-mid h2 .word3 {
-  margin-right: 0; /* siste ord trenger ikke ekstra */
+  margin-right: 0;
+  color: black;
 }
 
-/* Sosiale medier logoer */
 .social-icons img {
   width: 40px;
   height: 40px;
-  margin: 0 10px;
+  padding: 40px;
   vertical-align: middle;
 }
 
@@ -121,7 +106,6 @@ footer .adresse {
   font-size: 0.9rem;
 }
 
-/* Åpningstider til høyre */
 .apningstider {
   position: absolute;
   right: 40px;
@@ -136,4 +120,69 @@ footer .adresse {
   font-weight: 700;
   font-family: "bogart", sans-serif;
   color: #7b3e19;
+}
+
+.header_natt {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.h1_head_natt {
+  background-color: #8ae1fc;
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-left: 40px;
+  margin: 0;
+  color: #379634;
+  text-align: left;
+}
+
+.h1_head_dag {
+  background-color: #fffc99;
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-left: 40px;
+  margin: 0;
+  color: #7b3e19;
+  text-align: left;
+}
+
+.footer_natt {
+  background-color: #8ae1fc;
+  position: relative;
+  padding: 40px;
+  color: #379634;
+  font-family: "bogart", sans-serif;
+}
+.footer_natt h1 {
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-left: 40px;
+  margin: 0;
+  color: #379634;
+}
+.apningstider_natt {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  text-align: right;
+  font-size: 1rem;
+  color: black;
+}
+.h3_apningstider_natt {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "bogart", sans-serif;
+  color: #379634;
+}
+
+.personell_1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
