@@ -7,15 +7,39 @@ body {
   color: #333;
 }
 
-/*Header*/
+/*Header dag*/
 header {
   background-color: #ffffff;
   text-align: center;
 }
 
-/*H1 bruker Blenny Typekit */
+.header-content_dag {
+  background-color: #fffc99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
 
-/* Nav */
+.header-icon_dag {
+  width: 100%;
+  height: auto;
+  min-width: 20px;
+  max-width: 50px;
+}
+
+.h1_head_dag {
+  background-color: #fffc99;
+  font-family: "Blenny", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-left: 40px;
+  margin: 0;
+  color: #7b3e19;
+  text-align: left;
+}
+
+/* Navnav */
 nav a {
   margin: 0 15px;
   text-decoration: none;
@@ -28,20 +52,53 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
-/* Innhold */
+/* main dag */
 main {
   padding: 20px;
 }
 
-/* Underrubrikker */
 h2 {
   font-family: "bogart", sans-serif;
-  font-weight: 900; /* Bogart Black */
+  font-weight: 900;
   font-style: normal;
   text-align: center;
+  color: #7b3e19;
 }
 
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-apningstider {
+  align-items: baseline;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.main-apningstider h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "bogart", sans-serif;
+  color: #7b3e19;
+}
+
+.main-apningstider p {
+  line-height: 1.6;
+  color: black;
+}
+
+.personell_1 {
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+}
+/* Footer dag */
 footer {
   background-color: #fffc99;
   position: relative;
@@ -121,10 +178,25 @@ footer .adresse {
   font-family: "bogart", sans-serif;
   color: #7b3e19;
 }
-
+/*Header natt*/
 .header_natt {
   background-color: #ffffff;
   text-align: center;
+}
+
+.header-content_natt {
+  background-color: #8ae1fc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.header-icon_natt {
+  width: 100%;
+  height: auto;
+  min-width: 20px;
+  max-width: 50px;
 }
 
 .h1_head_natt {
@@ -137,18 +209,7 @@ footer .adresse {
   color: #379634;
   text-align: left;
 }
-
-.h1_head_dag {
-  background-color: #fffc99;
-  font-family: "Blenny", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
-  padding-left: 40px;
-  margin: 0;
-  color: #7b3e19;
-  text-align: left;
-}
-
+/* Footer natt */
 .footer_natt {
   background-color: #8ae1fc;
   position: relative;
@@ -179,10 +240,3 @@ footer .adresse {
   color: #379634;
 }
 
-.personell_1 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
